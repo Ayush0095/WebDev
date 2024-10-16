@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Marathon Form</title>
+        </head>
+        <link rel="stylesheet" href="style.css">
+<body>
+        <h1>Registeration Form of Anual Marathon.</h1>
+        <form>
+                <div>
+                <label for="First Name">First Name</label>
+                <input id="First Name" type="text" paceholder="First Name" name="First name">
+                <label for="Last Name">Last Name</label>
+                <input id="Last Name" type="text" paceholder="Last Name" name="Last name">
+                </div>
+                <p><b>Select a race:</b></p>
+                <div>
+                        
+                        <input id="Under 5 Km" type="radio" paceholder="Under 5 Km" name="race">
+                        <label for="Under 5 Km">Under 5 Km</label>
+                
+                </div>
+                <div>     
+                        <input id="Full Marathon" type="radio" paceholder="Full Marathon" name="race">
+                        <label for="Full Marathon">Full Marathon</label>
+                </div>
+                <div>
+                        
+                        <input id="Half Marathon" type="radio" paceholder="Half Marathon" name="race">
+                        <label for="Half Marathon">Half Marathon</label>
+                </div>
+                <div>
+                        <label for="Enter email">Enter email</label>
+                        <input id="Enter email" type="email" paceholder="Enter email" name="Enter email">  
+               
+                        <label for="Password">Password</label>
+                        <input id="Password" type="Password" paceholder="Password" name="Passwordl" required>  
+                </div>
+                <div>
+                        <label for="Select Age group">Select Age group</label>
+                        <select name="select age group" id="Select Age group">
+                                <option value="">--select age group--</option>
+                                <option value="18-25">18-25</option>
+                                <option value="25-40">25-40</option>
+                                <option value="40+">40+</option>
+                            </select>
+                <div><button>Register</button></div>
+        </form>
+</body>
+</html>

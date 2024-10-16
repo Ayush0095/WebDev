@@ -1,0 +1,27 @@
+h1{
+       
+        width: 200px;
+        height: 60px;
+        padding: 10px;
+        border: 2px solid red;
+        background: rgb(38, 202, 70);
+}
+
+    
+#main{
+        width: 600px;
+        height: 300px;
+    
+        margin: auto;
+        margin-top: 70px;
+        padding-left:3px;
+        padding-top:3px;
+        padding-right:3px;
+        padding-bottom:3px;
+}
+feildset{
+        height: 50%;
+}
+body{
+        background-color:light green;
+}
